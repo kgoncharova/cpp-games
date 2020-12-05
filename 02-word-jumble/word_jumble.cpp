@@ -17,6 +17,7 @@ int main()
     {"persistent", "Keep at it."},
     {"jumble", "It's what the game is all about."}
   };
+  int points = 0;
 
   srand(static_cast<unsigned int>(time(0)));
   int choice = (rand() % NUM_WORDS);
@@ -51,6 +52,8 @@ int main()
   {
     if (guess == "hint")
     {
+      points -= 1;
+      cout<<"\nThis cost you 1 point!\n\n";
       cout << theHint;
     }
     else
@@ -63,7 +66,11 @@ int main()
 
   if (guess == theWord)
   {
+    points += theWord.size();
     cout << "\nThat's it! You guessed it!\n";
+    if (points < 0)
+      points = 0;
+    cout << "Your score: " << points << endl;
   }
 
   cout << "\nThanks for playing.\n";

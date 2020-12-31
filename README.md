@@ -15,3 +15,6 @@ The game also ends if the player correctly identifies all the letters of the mis
 
 ### 4. Mad Lib
 A phrasal template word game where you fill in the blanks.
+
+### 5. Tic-Tac-Toe
+Tic-tac-toe is a two player game where the goal of each user is to mark their turn as an X or an O on a gameboard with three columns and three rows. The first user to get three in a row, either diagonally, horizontally, or vertically will be the winner.

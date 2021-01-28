@@ -16,8 +16,7 @@
   <tr>
     <td><a href="https://github.com/kgoncharova/cpp-games/tree/master/03-hangman">Hangman</td>
     <td>
-      Hangman is a popular word guessing game where the player attempts to build a missing<br>
-      word by guessing one letter at a time.<br>
+      Hangman is a popular word guessing game where the player attempts to build a missing word by guessing one letter at a time.<br>
       After a certain number of incorrect guesses, the game ends and the player loses.<br>
       The game also ends if the player correctly identifies all the letters of the missing word.
     </td>
@@ -29,8 +28,7 @@
   <tr>
     <td><a href="https://github.com/kgoncharova/cpp-games/tree/master/05-tic-tac-toe">Tic-Tac-Toe</td>
     <td>
-      Tic-tac-toe is a two player game where the goal of each user is to mark their turn as an X or an O<br>
-      on a gameboard with three columns and three rows.<br>
+      A two player game where the goal of each user is to mark their turn as an X or an O on a gameboard with three columns and three rows.<br>
       The first user to get three in a row, either diagonally, horizontally, or vertically will be the winner.
     </td>
   </tr>

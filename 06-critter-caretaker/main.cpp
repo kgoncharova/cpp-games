@@ -9,7 +9,13 @@ int main()
 
   do
   {
-    std::cout << "\n\t\tCritter Caretaker\n\n";
+    std::cout << "\n\tCritter Caretaker\n\n";
+    std::cout << R"(
+             /\_/\
+            ( o.o )
+             > ^ <
+    )" << '\n';
+
     std::cout << "0 - Quit\n";
     std::cout << "1 - Listen to your critter\n";
     std::cout << "2 - Feed your critter\n";
@@ -30,9 +36,14 @@ int main()
     case 3:
       crit.Play();
       break;
+    //secret menu option that displays exact hunger and boredum levels
+    case 4:
+      crit.DisplayLevels();
+      break;
     default:
       std::cout << "\nSorry, but " << choice << " isn't a valid choice.\n";
     }
   } while (choice != 0);
+
   return 0;
 }

@@ -35,15 +35,15 @@
   <tr>
     <td><a href="https://github.com/kgoncharova/cpp-games/tree/master/06-critter-caretaker">Critter Caretaker</td>
     <td>
-      The Critter Caretaker game simulates caring for a virtual pet<br>
-      The user must feed and play with the critter to keep it in a good mood.<br> 
-      The user can listen to the critter to learn how the critter is feeling, which can range from happy to mad.
+      The Critter Caretaker game simulates caring for a virtual pet.<br>
+      You must feed and play with the critter to keep it in a good mood.<br> 
+      Also you can listen to the critter to learn how the critter is feeling, which can range from happy to mad.
     </td>
   </tr>
   <tr>
     <td><a href="https://github.com/kgoncharova/cpp-games/tree/master/07-blackjack">Blackjack</td>
     <td>
-      Plays a simple version of the casino game of blackjack; for 1-7 players
+      A simple version of the casino game of blackjack for 1-7 players.
     </td>
   </tr>
 </table>

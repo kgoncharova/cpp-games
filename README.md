@@ -40,4 +40,10 @@
       The user can listen to the critter to learn how the critter is feeling, which can range from happy to mad.
     </td>
   </tr>
+  <tr>
+    <td><a href="https://github.com/kgoncharova/cpp-games/tree/master/07-blackjack">Blackjack</td>
+    <td>
+      Plays a simple version of the casino game of blackjack; for 1-7 players
+    </td>
+  </tr>
 </table>
